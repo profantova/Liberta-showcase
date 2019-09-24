@@ -1,0 +1,27 @@
+.block-split-landscape {
+    // flex-direction: column;
+
+    &__image {
+        width: 100%;
+        & img {
+            max-width: 100%;
+        }
+    }
+    &__content p {
+        font-size: 1.15rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .block-split-landscape {
+        // flex-direction: row;
+
+        &__content p {
+            font-size: 1.15rem;
+            padding-bottom: 0;
+            padding-right: 3rem;
+        }
+    }
+
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="56"
+   height="56"
+   viewBox="0 0 14.816667 14.816667"
+   version="1.1"
+   id="svg6413"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="facebook_icon.svg">
+  <defs
+     id="defs6407" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.2617187"
+     inkscape:cx="81.660045"
+     inkscape:cy="28.132632"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:showpageshadow="false"
+     borderlayer="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     units="px" />
+  <metadata
+     id="metadata6410">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(11.729902,-133.19769)">
+    <g
+       id="g830"
+       transform="matrix(0.56000009,0,0,0.56000008,-17.167903,63.294919)">
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="C:\Users\Mirka\Desktop\facebook_prie100r.png"
+         style="opacity:1;vector-effect:none;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:2.64583302;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:markers fill stroke"
+         d="M 36.295389,137.9973 A 13.229164,13.229168 0 0 1 23.066219,151.22646 13.229164,13.229168 0 0 1 9.8370594,137.9973 13.229164,13.229168 0 0 1 23.066219,124.76813 13.229164,13.229168 0 0 1 36.295389,137.9973 Z"
+         id="path823"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="C:\Users\Mirka\Desktop\facebook_prie100r.png"
+         inkscape:connector-curvature="0"
+         id="path827"
+         d="m 24.544249,131.96718 c -1.63692,0 -2.75795,0.99882 -2.75795,2.83375 v 1.58139 h -1.85185 v 2.14469 h 1.85185 v 5.5004 h 2.21359 v -5.5004 h 1.84667 l 0.27735,-2.14469 h -2.12402 v -1.3695 c 0,-0.62076 0.17273,-1.04392 1.06287,-1.04392 h 1.13523 v -1.91731 c -0.19635,-0.0261 -0.86965,-0.0844 -1.65374,-0.0844 z"
+         style="fill:#ffffff;stroke-width:0.26458332" />
+    </g>
+  </g>
+</svg>

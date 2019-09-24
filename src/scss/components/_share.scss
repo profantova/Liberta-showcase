@@ -1,0 +1,46 @@
+.share-container {
+    position: relative;
+}
+.share {
+    li {
+        display: inline-block;
+        padding-right: 1.5rem;
+    }
+
+    li:last-child {
+        padding-right: 0;
+    }
+
+    img {
+        padding-top: 0;
+        width: 2rem;
+        transition: all .2s ease-in-out;
+    }
+
+    img:hover {
+        transform: scale(1.15);
+    }
+}
+
+
+@include media-breakpoint-up(xl) {
+    .share-container {
+        position: fixed;
+        z-index: 100;
+        left: 18rem;
+
+    }
+    .share {
+        li {
+            display: block;
+            width: 2.625rem;
+            padding-right: 0;
+        }
+
+
+        img {
+            width: 3rem;
+            padding-top: 1rem;
+        }
+    }
+}

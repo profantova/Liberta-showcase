@@ -1,0 +1,76 @@
+.header-relative {
+    position: relative;
+}
+
+.card-body {
+  position: relative;
+
+  a {
+    position: absolute;
+    bottom: 2rem;
+    right: 3rem;
+  }
+
+  .arrow {
+    position: relative;
+  }
+
+  .arrow--right {
+    top: 0;
+    left: 0;
+  }
+}
+
+.blog-post {
+    margin-top: 6rem;
+    
+    img {
+        padding-top: 2rem;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    &__content {
+        padding-top: 4rem;
+
+        p {
+            font-size: 1.15rem;
+            line-height: 1.8rem;
+        }
+    }
+}
+.post-meta-container {
+    p {
+        font-size: .9rem;
+        color: $color-text-light;
+        padding-right: 1rem;
+
+    &:last-child {
+        padding-right: 0;
+    }
+
+    }
+
+}
+
+@include media-breakpoint-up(lg) {
+    .blog-post {
+        h1 {
+            font-size: 3rem;
+        }
+
+        &__content {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+    }
+
+    img {
+        max-width: 51rem;
+    }
+}

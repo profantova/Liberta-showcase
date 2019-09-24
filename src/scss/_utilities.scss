@@ -1,0 +1,44 @@
+
+.container--is-positioned {
+    position: absolute;
+    bottom: 4rem;
+    display: flex;
+}
+
+ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.section--large {
+    padding: 4rem 1rem;
+}
+
+.section--small {
+    padding: 4rem 1rem;
+}
+
+@include media-breakpoint-up(md) {
+    .section--large {
+        padding: 6rem 1rem;
+    }
+}
+
+
+@include media-breakpoint-up(lg) {
+    .container-fluid {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    .section--large {
+        padding: 8rem 1rem;
+    }
+
+    .container--is-positioned {
+        position: relative;
+        bottom: 0;
+        height: 100%;
+        align-items: center;
+    }
+}

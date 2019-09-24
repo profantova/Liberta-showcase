@@ -1,0 +1,22 @@
+.section-list {
+    background-color: $color-background-medium;
+}
+
+.block-list-landscape {
+
+    padding-left: 2.375rem;;
+
+    &__content ul {
+        list-style: none;
+
+            & li {
+            text-indent: -38px;
+            }
+
+            & li:before {
+            content: '→';
+            font-size: 1.25rem;
+            padding-right: 1rem;
+        }
+    }
+}

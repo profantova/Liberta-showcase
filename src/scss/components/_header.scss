@@ -1,0 +1,98 @@
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navbar {
+    // background-color: $color-background-light;
+}
+
+.navbar-brand {
+    max-width: 12rem;
+    // border: 1px solid $color-primary;
+    padding: {
+        left: 1rem;
+        right: 1rem;
+    }
+
+    &__logo {
+        width: 100%;
+    }
+}
+
+.nav-item {
+    margin: {
+        left: .5rem;
+        right: .5rem;
+    }
+}
+
+// writen extensivelly to overwrite Bootstrap rules
+.navbar-light .navbar-nav .nav-link {
+    text-transform: uppercase;
+    color: $color-primary;
+    font-weight: 500;
+
+    &:hover {
+        color: lighten($color-primary, 10%);
+    }
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: $color-primary;
+}
+
+// Mobile navigation
+.navbar-collapse.collapsing,
+.navbar-collapse.show {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $color-background-white;
+
+    .navbar-nav {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+}
+
+.navbar-light .navbar-toggler {
+    position: relative;
+    z-index: 1;
+    background: #fefefe;
+}
+
+// CSS changes because of different background image - used page ID from WordPress
+
+.page-id-84 .navbar-brand__logo,
+.page-id-104 .navbar-brand__logo {
+	background:#fefefe;
+}
+
+#navbarSupportedContent .nav-link {
+	color: #191919 !important;
+}
+
+header {
+		padding-left:0;
+		padding-right:0;
+    }
+
+
+@include media-breakpoint-up(lg) {
+
+    .page-id-72 #navbarSupportedContent .nav-link,
+    .page-id-84 #navbarSupportedContent .nav-link,
+    .page-id-26 #navbarSupportedContent .nav-link,
+    .page-id-104 #navbarSupportedContent .nav-link {
+    	color: #fefefe !important;
+    }
+}

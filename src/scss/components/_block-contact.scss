@@ -1,0 +1,46 @@
+.block-contact__content {
+    .email p:first-child,
+    .phone p:first-child,
+    .address p:first-child {
+        margin-bottom: .25rem;
+    }
+
+    a {
+        color: $color-text-dark;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    .email a {
+        display: block;
+        text-decoration: underline;
+        padding-bottom: 1rem;
+    }
+
+    .address {
+        padding-bottom: 1rem;
+    }
+}
+
+.social-icons {
+    margin-top: 1rem;
+
+    a:not(:last-child) {
+        padding-right: 1.5rem;
+    }
+
+    img {
+        width: 3rem;
+        transition: all .2s ease-in-out;
+    }
+
+    img:hover {
+        transform: scale(1.15);
+    }
+}
+
+.block-contact__form {
+    margin-top: 2rem;
+}

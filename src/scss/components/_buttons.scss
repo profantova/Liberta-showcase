@@ -1,0 +1,29 @@
+.btn {
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: .75rem 1.5rem;
+    border: none;
+    box-shadow: 0 .25rem .5rem .1rem rgba($color-primary,.25);
+
+    &-primary {
+        color: $color-text-dark;
+        background: $color-background-light;
+        transition: all .15s ease-in-out;
+
+        &:hover, &:focus, &:active {
+            color: $color-secondary !important;
+            background-color: $color-background-dark !important;
+            box-shadow: none;
+        }
+
+    }
+
+    &-secondary {
+        color: $color-background-light;
+        background-color: $color-background-dark;
+
+        &:hover, &:focus, &:active {
+            background-color: lighten($color-background-dark, 10%);
+        }
+    }
+}
